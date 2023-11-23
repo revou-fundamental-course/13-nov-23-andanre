@@ -1,0 +1,95 @@
+*,
+html {
+margin: 0;
+padding: 0;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.container-2 {
+    background-color: brown;
+}
+
+body {
+    background-color: aqua;
+}
+
+div {
+     background-color: blueviolet;
+
+}
+
+.container-navbar {
+background-color: grey;
+width: 100%;
+height: 10vh; 
+}
+
+.ul-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+list-style-type: none;
+font: 30px;
+padding: 20px;
+margin: 5px;
+color: white;
+}
+
+.li-navbar:hover {
+    background-color: blueviolet;
+    transition: .2s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 50px;
+}
+
+.a-navbar {
+
+    color: white;
+    text-decoration: none ;
+}
+
+.select-interest {
+    border: none;
+    appearance: none;
+    padding: 0 30px 0 15px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+
+}
+
+.container-content {
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-content {
+    image-rendering: optimizeQuality;
+    width: 100px;
+    height: 180px;
+}
+
+.container-footer{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.h1-footer {
+font-size: 40px;
+}
+
